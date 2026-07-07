@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Admission Result</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Admission Analysis</h1>
+
+<h2>{{ student_name }}</h2>
+
+<h3>AI Priority Score</h3>
+
+<p>{{ priority_score }}</p>
+
+<h3>Risk Level</h3>
+
+<p>{{ risk_level }}</p>
+
+<h3>Recommendation</h3>
+
+<p>{{ recommendation }}</p>
+
+<h3>AI Summary</h3>
+
+<p>{{ summary }}</p>
+
+<a href="/">Analyze Another Student</a>
+
+</div>
+
+</body>
+
+</html>
